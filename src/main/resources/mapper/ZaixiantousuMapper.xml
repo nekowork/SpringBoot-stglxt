@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.spring.dao.ZaixiantousuMapper">
+    <resultMap id="BaseResultMap" type="com.spring.entity.Zaixiantousu">
+        <id column="id" property="id" jdbcType="INTEGER"/>
+                            <result column="xingming" property="xingming" jdbcType="VARCHAR"/>
+                                    <result column="dianhua" property="dianhua" jdbcType="VARCHAR"/>
+                                    <result column="tousudianjia" property="tousudianjia" jdbcType="VARCHAR"/>
+                                    <result column="tousuneirong" property="tousuneirong" jdbcType="VARCHAR"/>
+                                    <result column="huifuneirong" property="huifuneirong" jdbcType="VARCHAR"/>
+                                    <result column="tousuren" property="tousuren" jdbcType="VARCHAR"/>
+                                                <result column="addtime" property="addtime" jdbcType="VARCHAR"/>
+            </resultMap>
+    <sql id="Base_Column_List">
+        id, xingming, dianhua, tousudianjia, tousuneirong, huifuneirong, tousuren, addtime    </sql>
+    </mapper>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.spring.dao.CaipinxinxiMapper">
+    <resultMap id="BaseResultMap" type="com.spring.entity.Caipinxinxi">
+        <id column="id" property="id" jdbcType="INTEGER"/>
+                            <result column="caipinbianhao" property="caipinbianhao" jdbcType="VARCHAR"/>
+                                    <result column="caipinmingcheng" property="caipinmingcheng" jdbcType="VARCHAR"/>
+                                    <result column="fenlei" property="fenlei" jdbcType="VARCHAR"/>
+                                    <result column="caipintupian" property="caipintupian" jdbcType="VARCHAR"/>
+                                    <result column="pingfen" property="pingfen" jdbcType="DECIMAL"/>
+                                    <result column="jiage" property="jiage" jdbcType="DECIMAL"/>
+                                    <result column="zhekoujia" property="zhekoujia" jdbcType="INTEGER"/>
+                                    <result column="xiaoliang" property="xiaoliang" jdbcType="INTEGER"/>
+                                    <result column="kucun" property="kucun" jdbcType="INTEGER"/>
+                                    <result column="caipinxiangqing" property="caipinxiangqing" jdbcType="VARCHAR"/>
+                                    <result column="faburen" property="faburen" jdbcType="VARCHAR"/>
+                                                <result column="addtime" property="addtime" jdbcType="VARCHAR"/>
+            </resultMap>
+    <sql id="Base_Column_List">
+        id, caipinbianhao, caipinmingcheng, fenlei, caipintupian, pingfen, jiage, zhekoujia, xiaoliang, kucun, caipinxiangqing, faburen, addtime    </sql>
+    </mapper>

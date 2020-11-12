@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.spring.dao.DianjiaMapper">
+    <resultMap id="BaseResultMap" type="com.spring.entity.Dianjia">
+        <id column="id" property="id" jdbcType="INTEGER"/>
+                            <result column="zhanghao" property="zhanghao" jdbcType="VARCHAR"/>
+                                    <result column="mima" property="mima" jdbcType="VARCHAR"/>
+                                    <result column="dianjiamingcheng" property="dianjiamingcheng" jdbcType="VARCHAR"/>
+                                    <result column="shoujihaoma" property="shoujihaoma" jdbcType="VARCHAR"/>
+                                    <result column="dizhi" property="dizhi" jdbcType="VARCHAR"/>
+                                    <result column="youxiang" property="youxiang" jdbcType="VARCHAR"/>
+                                                <result column="addtime" property="addtime" jdbcType="VARCHAR"/>
+            </resultMap>
+    <sql id="Base_Column_List">
+        id, zhanghao, mima, dianjiamingcheng, shoujihaoma, dizhi, youxiang, addtime    </sql>
+        <select id="login" resultMap="BaseResultMap" parameterType="com.spring.entity.Dianjia">
+        select
+        <include refid="Base_Column_List"/>
+        from dianjia        where zhanghao = #{zhanghao}
+        AND mima = #{mima}
+    </select>
+    </mapper>

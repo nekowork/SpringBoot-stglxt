@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.spring.dao.JiaofuMapper">
+    <resultMap id="BaseResultMap" type="com.spring.entity.Jiaofu">
+        <id column="id" property="id" jdbcType="INTEGER"/>
+                            <result column="dingdanbianhao" property="dingdanbianhao" jdbcType="VARCHAR"/>
+                                    <result column="dingdanxinxi" property="dingdanxinxi" jdbcType="VARCHAR"/>
+                                    <result column="dingdanjine" property="dingdanjine" jdbcType="DECIMAL"/>
+                                    <result column="xiadanren" property="xiadanren" jdbcType="VARCHAR"/>
+                                    <result column="beizhu" property="beizhu" jdbcType="VARCHAR"/>
+                                    <result column="jiaofuren" property="jiaofuren" jdbcType="VARCHAR"/>
+                                                    <result column="dingdanid" property="dingdanid" jdbcType="INTEGER"/>
+                <result column="addtime" property="addtime" jdbcType="VARCHAR"/>
+            </resultMap>
+    <sql id="Base_Column_List">
+        id, dingdanbianhao, dingdanxinxi, dingdanjine, xiadanren, beizhu, jiaofuren, dingdanid, addtime    </sql>
+    </mapper>
