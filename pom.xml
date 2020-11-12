@@ -1,16 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
-<repositories>
-        <!--for others-->
-        <repository>
-            <id>alimaven</id>
-            <name>aliyun maven</name>
-            <!--<url>http://maven.aliyun.com/nexus/content/repositories/central/</url>-->
-            <url>http://maven.aliyun.com/nexus/content/groups/public/</url>
-        </repository>
-</repositories>
-
-
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
@@ -58,7 +46,7 @@
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
             <scope>runtime</scope>
-            <version>5.1.47</version><!-- MYSQL 8 以上把版本对应就好 -->
+            <version>8.0.21</version><!-- MYSQL 8 以上把版本对应就好 -->
         </dependency>
 
 
