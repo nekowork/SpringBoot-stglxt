@@ -54,6 +54,8 @@ XXX
 
 ![功能图](p1.png)
 
+演示视频地址：[Onedrive](https://zong-my.sharepoint.com/:v:/g/personal/wenders_nekopara_net/Ed9T8ZvWiCFAt0Lmak-j0MUB8K78FFWkr8Kc_S4WwraMOA?e=EM8JuN)
+
 
 # 运行环境
 java 1.8.0
