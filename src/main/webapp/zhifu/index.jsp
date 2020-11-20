@@ -18,7 +18,7 @@
         //校验输入框  -->
         function CheckForm() {
             if (document.alipayment.aliorder.value.length == 0) {
-                alert("请输入图书名称.");
+                alert("请输入交易名称.");
                 document.alipayment.aliorder.focus();
                 return false;
             }
@@ -97,7 +97,7 @@
                         <TR>
                             <TD class=form-left>收款方：</TD>
                             <TD class=form-star>*</TD>
-                            <TD class=form-right>xxxx&nbsp;</TD>
+                            <TD class=form-right>学校食堂</TD>
                         </TR>
                         <TR>
                             <TD colspan="3" align="center">
@@ -122,7 +122,7 @@
                             <TD class=form-left>备注：</TD>
                             <TD class=form-star></TD>
                             <TD class=form-right><TEXTAREA name=alibody rows=5 cols=40 wrap="physical"></TEXTAREA><BR>
-                                （如联系方法，图书要求、数量等。100汉字内）
+                                （如联系方法，食品要求、数量等。100汉字内）
                             </TD>
                         </TR>
                         <TR>
@@ -207,16 +207,6 @@
                         </TR>
                     </TABLE>
                 </td>
-                <td vAlign=top width=205 style="font-size:12px;font-family:'宋体'">
-                    <span id="glowtext">小贴士：</span>
-                    <fieldset>
-                        <P class=STYLE1>本通道为<a href="http://www.jingmeiru.net" target="_blank"><strong>高考英语口语考试报名系统收款帐号：xxxx</strong></a>客户专用，采用支付宝付款。请在支付前与本网站达成一致。
-                        </P>
-                        <P class="style2">请务必与<a href="http://www.jingmeiru.net" target="_blank"><strong>高考英语口语考试报名系统收款帐号：xxxx</strong></a>确认好订单和货款后，再付款。可以在快速付款通道里的“标题”、“订单金额”、“付款方”和备注中填入相应的订单信息。
-                        </P>
-                        <P class="style2 style3">&nbsp;</P>
-                    </fieldset>
-                </td>
             </tr>
         </table>
 
@@ -235,7 +225,7 @@
     <TABLE cellSpacing=0 cellPadding=0 width=760 align=center border=0>
         <TR align=middle>
             <TD class="txt12 lh15"><A href="http://china.alibaba.com/"
-                                      target=_blank>阿里巴巴旗下公司</A> | 支付宝版权所有 2004-2012
+                                      target=_blank>阿里巴巴旗下公司</A> | 支付宝版权所有 ©2004-2020
             </TD>
         </TR>
         <TR align=middle>

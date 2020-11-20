@@ -77,18 +77,13 @@
     <TR align=middle
         bgColor=#ffffff>
         <TD width="10%" align="left">系统作者：</TD>
-        <TD width="41%" align="left"><font class="t4">xxxxxx</font></TD>
+        <TD width="41%" align="left"><font class="t4">闫金龙 刘文清 周宣鹏 张云凯</font></TD>
     </TR>
-    <TR align=middle
+    <!--期末作业打开此注释TR align=middle
         bgColor=#ffffff>
         <TD align="left">指导老师：</TD>
-        <TD align="left">xxxxxxx</TD>
-    </TR>
-    <TR align=middle
-        bgColor=#ffffff>
-        <TD align="left">联系方式：</TD>
-        <TD align="left"><font class="t41">xxxxxxxxxxxxxxx</font></TD>
-    </TR>
+        <TD align="left">秦润</TD>
+    </TR-->
     </TBODY>
 </TABLE>
 <p>&nbsp;</p>

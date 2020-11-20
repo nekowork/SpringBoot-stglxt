@@ -8,7 +8,7 @@ import org.springframework.boot.SpringBootConfiguration;
  * 系统启动后执行这里,运行浏览器
  */
 @SpringBootConfiguration
-public class AutoStartProjectInDefaultBrowser implements CommandLineRunner {
+public class  AutoStartProjectInDefaultBrowser implements CommandLineRunner {
     @Value("${server.port}")
     private String port;
 

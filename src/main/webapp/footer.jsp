@@ -11,7 +11,8 @@
 <div class="footer mt10">
         
         <div class="copyrightnr">
-            <p>地址：xxxxxxxxxxxxx　　电话：0000-00000000　　手机：12312312312 <br></br>版权所有：食堂管理系统 　　ICP备********号</p>        </div>
+            <p>©2020 2020 版权所有. </br>WORK POWERED BY IDEA;SUPPORT BY JAVA & SPRINGBOOT</p>
+        </div>
     </div>
 
 
