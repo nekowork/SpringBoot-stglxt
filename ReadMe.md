@@ -1,11 +1,4 @@
 # 食堂管理系统
-## 团队名称
-NaN
-
-## 项目名称
-食堂管理系统[Canteen Management System]
-
-
 ## 项目介绍
 本项目是基于Java的管理系统。采用前后端分离开发。前端基于bootstrap框架实现，后端使用Java语言开发，技术栈包括但不限于SpringBoot、MyBatis、MySQL、Maven等，开发工具为IDEA。
 
